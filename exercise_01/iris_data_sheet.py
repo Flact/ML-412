@@ -1,4 +1,6 @@
 
+import pandas as pd
+
 # read data
 data = pd.read_csv(
     'http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data')
