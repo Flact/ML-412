@@ -1,0 +1,1 @@
+Download the exercise file: [ml_exercise.pdf](https://github.com/Flact/ML-412/blob/main/exercise_01/ml_exercise.pdf "ml_exercise.pdf")
