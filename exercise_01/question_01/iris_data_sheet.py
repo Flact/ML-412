@@ -1,5 +1,6 @@
 
 import pandas as pd
+# from tabulate import tabulate
 
 # read data
 data = pd.read_csv(
@@ -11,6 +12,7 @@ data.columns = ['Sepal length', 'Sepal width',
 # this will print the first few rows
 # print(data.head())
 
+# print(data)
 
 """ min_data = data["Sepal length"].min()
 max_data = data["Sepal length"].max() """
@@ -19,5 +21,8 @@ max_data = data["Sepal length"].max() """
 
 
 # print all the columns
-""" for c in data.columns:
-    print(c) """
+for c in data.columns[:4]:
+    min = data.loc[data[c].idxmin()]
+    max = data.loc[data[c].idxmax()]
+    print(f'{c} \t {min[c] :<6} ({min["Class"].split("-")[1]})\t\
+        {max[c]} ({max["Class"].split("-")[1]})')

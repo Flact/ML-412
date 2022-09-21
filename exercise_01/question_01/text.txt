@@ -1,3 +1,0 @@
-
-Setup environment
-each folder (question 1 2 3) contain its own virtual environment. 
