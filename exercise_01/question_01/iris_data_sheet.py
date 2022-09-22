@@ -23,9 +23,8 @@ for c in data.columns[:4]:
 # make dictionary to DataFrame
 df = pd.DataFrame(data_dict)
 
-# print "Summary Statistics" column 
-print(f'+{"-"*51}+')
-print("|{:>35}{:>17}".format("Summary Statistics", "|"))
+# print "Summary Statistics" row 
+print("{}\n|{:>35}{:>17}".format(f'+{"-"*51}+',"Summary Statistics", "|"))
 
 # print rest of the table 
 print(tabulate(df, headers='keys', tablefmt='grid',

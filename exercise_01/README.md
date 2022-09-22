@@ -21,4 +21,6 @@ For all three questions I've created a one virtual environment (`ml-venv`) on "e
 
 7. **Install data analysis toolkit (pandas)**
 	- `pip install pandas`
+	- `pip install tabulate`
 	- Learn more about [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html#intro-to-pandas "Click here").
+	- Learn more about [tabulate](https://pypi.org/project/tabulate/ "Click here").
